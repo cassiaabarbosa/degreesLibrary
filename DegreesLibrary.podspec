@@ -6,5 +6,6 @@ Pod::Spec.new do |spec|
   spec.authors          = { 'Tony Million' => 'tonymillion@gmail.com' }
   spec.summary          = 'ARC and GCD Compatible Reachability Class for iOS and macOS.'
   spec.source           = { :git => 'https://github.com/cassiaabarbosa/degreesLibrary.git', :tag => 'v1.2.0' }
- spec.vendored_frameworks      = 'DegreesLibrary.xcframework'
+  spec.source_files = 'DegreesLibrary.{h,m}'
+  spec.framework    = 'SystemConfiguration'
 end
