@@ -1,16 +1,10 @@
 Pod::Spec.new do |spec|
-    spec.name                     = 'DegreeLibrary'
-    spec.version                  = '1.1'
-    spec.homepage                 = 'Link to the Shared Module homepage'
-    spec.source                   = { :git => 'https://github.com/cassiaabarbosa/degreesLibrary.git, :tag => '1.1' }
-    spec.authors                  = ''
-    spec.license                  = ''
-    spec.summary                  = 'Some description for the Shared Module'
-    spec.vendored_frameworks      = 'DegreesLibrary.xcframework'
-    spec.libraries                = 'c++'
-    spec.ios.deployment_target = '14.1'
-                
-                
-                
-                
+  spec.name             = 'DegreesLibrary'
+  spec.version          = '1.2'
+  spec.license          = { :type => 'BSD' }
+  spec.homepage         = 'https://github.com/cassiaabarbosa/degreesLibrary'
+  spec.authors          = { 'Tony Million' => 'tonymillion@gmail.com' }
+  spec.summary          = 'ARC and GCD Compatible Reachability Class for iOS and macOS.'
+  spec.source           = { :git => 'https://github.com/cassiaabarbosa/degreesLibrary.git', :tag => 'v1.2.0' }
+ spec.vendored_frameworks      = 'DegreesLibrary.xcframework'
 end
