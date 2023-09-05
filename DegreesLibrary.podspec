@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "DegreesLibrary.framework
   spec.framework    = 'SystemConfiguration'
   spec.static_framework = true
-  spec.libraries = "c++"
+
 end
