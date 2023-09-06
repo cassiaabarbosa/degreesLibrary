@@ -16,7 +16,7 @@ This CocoaPods library helps you perform calculation.
   spec.swift_version = "4.2"
 
   spec.source        = { :git => "https://github.com/cassiaabarbosa/degreesLibrary/tree/1.3.6.git", :tag => "#{spec.version}" }
-  spec.vendored_frameworks = "DegreesLibrary.xcframework"
+  spec.vendored_frameworks = "DegreesLibrary.framework"
  spec.requires_arc = true
 
 end
